@@ -11,7 +11,7 @@ Server : Apache
 Database : MySQL ( Used repositories which eventually converts code into mySql query )
 Languages : java
 ```
-*It's a small project focusing on Spring Boot, database design and accessing session within website. Implemented within 2-3 hours.*
+*It's a small project focusing on Spring Boot, database design , relationships and accessing session within website. Implemented within 2-3 hours.*
 
 ## Features:
 1. User should able to register and login websitr sucessfully. Validation should be applied.
@@ -29,5 +29,6 @@ Languages : java
   - Links (On the names) redirect to the person's profile page
   - Connect : Sends an invitation to the person. The invitation will apear on person's end. One invitation is accepted, the perso will now                be the logged user's friend/network
 
-4. User's Profile :
-  - Displays user's details (name , desc etc )
+4. User's Profile : Displays user's details (name , desc etc )
+
+5. Rule. User A will become friend with User B only when he accepts invitation. Otherwise Use A will be always be on invitation pool
